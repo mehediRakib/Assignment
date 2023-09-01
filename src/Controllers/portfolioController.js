@@ -1,20 +1,20 @@
 
 
 exports.create=async(req,res)=>{
-    res.send("create Blog API");
+    res.send("create portFolioController API");
 }
 
 
 exports.read=async(req,res)=>{
-    res.send("read Blog API");
+    res.send("read portFolioController API");
 }
 
 
 exports.delete=async(req,res)=>{
-    res.send("delete Blog API");
+    res.send("delete portFolioController API");
 }
 
 
 exports.update=async (req,res)=>{
-    res.send("update Blog API");
+    res.send("update portFolioController API");
 }

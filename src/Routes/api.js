@@ -14,10 +14,10 @@ const serviceController=require('../Controllers/serviceController');
 const titleController=require('../Controllers/titleController');
 
 
-router.get('/create',blogController.create);
-router.get('/read',blogController.read);
-router.get('/delete',blogController.delete);
-router.get('/update',blogController.update);
+router.get('/create1',blogController.create);
+router.get('/read1',blogController.read);
+router.get('/delete1',blogController.delete);
+router.get('/update1',blogController.update);
 
 router.get('/create2',blogDetailsController.create);
 router.get('/read2',blogDetailsController.read);

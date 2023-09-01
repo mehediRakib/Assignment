@@ -1,20 +1,20 @@
 
 
 exports.create=async(req,res)=>{
-    res.send("create Blog API");
+    res.send("create serviceController API");
 }
 
 
 exports.read=async(req,res)=>{
-    res.send("read Blog API");
+    res.send("read serviceController API");
 }
 
 
 exports.delete=async(req,res)=>{
-    res.send("delete Blog API");
+    res.send("delete serviceController API");
 }
 
 
 exports.update=async (req,res)=>{
-    res.send("update Blog API");
+    res.send("update serviceController API");
 }
